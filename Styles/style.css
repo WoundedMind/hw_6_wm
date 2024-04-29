@@ -1,0 +1,159 @@
+                                /* FONT */
+@font-face {
+    font-family: Cera Pro Demo;
+    src: url("assets/font/Cera-Pro-Regular-Demo.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Cera Pro Demo;
+    src: url("assets/font/Cera-Pro-Black-Demo.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Cera Pro Demo;
+    src: url("assets/font/Cera-Pro-Black-Demo.woff");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Cera Pro Demo", sans-serif;
+}
+
+                                /* HEADER */
+
+.header {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    border-bottom: 2px solid darkgrey;
+    justify-content: space-between;
+}
+
+.header__menu {
+    flex: 1;
+    margin: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    display: flex;
+}
+
+.header__logo {
+    max-width: 150px;
+    flex: 1;
+
+}
+
+.header__menu a {
+    padding: initial;
+    display: flex;
+    justify-content: space-evenly;
+    color: #3D3D3D;
+
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: #46A358 solid;
+}
+
+.header__button {
+    color: white;
+    margin-left: 20px;
+    max-width: 100px;
+    flex: 1;
+    background: #46A358;
+    border-radius: 6px;
+}
+
+
+                            /* BANNER */
+ .banner {
+     background-color: #F5F5F580
+ }
+ .container {
+     display: flex;
+     padding: 30px;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     flex-direction: column; /* Встановлення напрямку головної осі на стовпець */
+     max-width: 600px;
+ }
+
+.uppercase-text{
+     text-transform: uppercase;
+    color: #3D3D3D;
+ }
+
+#los {
+    font-size: 70px;
+    font-weight: bold;
+    box-sizing: revert;
+}
+
+#greet, #desc {
+    font-size: 14px;
+}
+
+#greet {
+    font-weight: 500;
+}
+
+#desc {
+    color: #727272;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+span {
+    color: #46A358;
+}
+
+p {
+    padding: 7px 0;
+}
+
+.banner__button {
+    width: 140px;
+    height: 40px;
+    left: 41px;
+    top: 325px;
+    color: white;
+    margin-top: 30px;
+    background-color: #46A358;
+    border-radius: 6px;
+}
+
+img {
+    overflow: visible;
+
+}
+#image_big {
+    position: absolute;
+    width: 507px;
+    height: 450px;
+    left: 900px;
+    top: 40px;
+    overflow: hidden;
+}
+
+#image_small {
+    position: absolute;
+    scale: 40%;
+    overflow: hidden;
+    left: 748px;
+    top: 116px;
+
+}
